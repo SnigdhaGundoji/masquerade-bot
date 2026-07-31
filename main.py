@@ -17,7 +17,7 @@ import google.generativeai as genai
 # CONFIG - fill these in before deploying
 # ---------------------------------------------------------------
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "PUT_YOUR_KEY_HERE")
-MODEL_NAME = "gemini-1.5-flash"  # fast + free-tier friendly
+MODEL_NAME = "gemini-2.5-flash"  # fast + free-tier friendly
 
 genai.configure(api_key=GEMINI_API_KEY)
 
